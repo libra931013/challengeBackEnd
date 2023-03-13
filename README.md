@@ -1,6 +1,6 @@
 # challengebackend
 primer challenge AluraOne/backend
-<h1 align="center"> CONVERSOR ALURA CHALLENGE BACKEND  </h1>!
+<h1 align="center"> CONVERSOR ALURA CHALLENGE BACKEND  </h1>
 <p></p>
 <p>Cuadro de seleccion de tipo de conversor</p>
 ![Cuadro de seleccion de tipo de conversor](https://user-images.githubusercontent.com/121276355/224702723-e2551f55-4d58-42c6-b002-dde8376343a2.png)
