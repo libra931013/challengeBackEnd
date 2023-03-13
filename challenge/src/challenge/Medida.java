@@ -23,7 +23,7 @@ public class Medida {
 		                "Por favor ingrese un valor",
 		                "Alerta",
 		                JOptionPane.INFORMATION_MESSAGE);
-			valor="";
+			valor="0";
 		}
 		return valor;
 	}

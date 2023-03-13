@@ -96,8 +96,10 @@ public class distancia extends JFrame {
 		JButton btnConvertir = new JButton("OK");
 		btnConvertir.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
+				
 				Medida medida=new Medida(cmb_ingreso.getSelectedItem().toString(),textField_ingreso.getText());
-				textField_salida.setText(ConversionDistancia.convertir(medida.getUnidad(),cmb_salida.getSelectedItem().toString() , Double.parseDouble(medida.getValor()) ));
+				textField_salida.setText(ConversionDistancia.convertir(cmb_ingreso.getSelectedItem().toString(),cmb_salida.getSelectedItem().toString() ,Double.valueOf(medida.getValor())  ).toString() );
+				
 				
 			}	
 		});

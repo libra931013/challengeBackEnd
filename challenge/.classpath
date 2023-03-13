@@ -6,6 +6,5 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="lib" path="C:/Users/elzet/Downloads/oer-java-master.zip"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
